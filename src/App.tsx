@@ -6,7 +6,7 @@ import {useAuthState} from "react-firebase-hooks/auth";
 import Loader from "./components/Loader";
 
 function App() {
-    const [user, loading, error] = useAuthState(getAuth());
+    const [loading] = useAuthState(getAuth());
     if (loading) {
         return <Loader />;
     }

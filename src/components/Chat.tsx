@@ -1,12 +1,11 @@
 import {Avatar, Button, Container, Grid, TextField} from "@mui/material";
-import React, {useState} from "react";
+import {useState} from "react";
 import {useCollectionData} from "react-firebase-hooks/firestore";
-import {collection, query, orderBy, addDoc, Timestamp, DocumentData, getDocs} from "firebase/firestore";
+import {collection, query, orderBy, addDoc, Timestamp, DocumentData} from "firebase/firestore";
 import Loader from "./Loader";
 import {useAuthState} from "react-firebase-hooks/auth";
 import {getAuth} from "@firebase/auth";
 import {db} from "..";
-import {Box} from "@mui/system";
 
 const Chat = () => {
     const [value, setValue] = useState("");

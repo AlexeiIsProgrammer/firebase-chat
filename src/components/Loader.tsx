@@ -1,5 +1,4 @@
-import {Container, Box, Grid} from "@mui/material";
-import React from "react";
+import {Container, Grid} from "@mui/material";
 
 const Loader = () => {
     return (

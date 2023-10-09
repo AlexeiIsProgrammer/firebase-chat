@@ -1,5 +1,5 @@
 import {Button, Grid, Box, Container} from "@mui/material";
-import React from "react";
+
 import {GoogleAuthProvider, getAuth, signInWithPopup} from "firebase/auth";
 
 const Login = () => {

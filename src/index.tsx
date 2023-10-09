@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 import {initializeApp} from "firebase/app";
-import {Timestamp, doc, getFirestore, setDoc} from "@firebase/firestore";
+import {getFirestore} from "@firebase/firestore";
 
 const app = initializeApp({
     apiKey: "AIzaSyDHhQAIlvXvMWSTcecW4um1UXwFB_NNSYE",
